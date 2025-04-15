@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles','RIO'
+    'django.contrib.staticfiles','ASH'
 ]
 
 MIDDLEWARE = [
@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'RAHUL.urls'
+ROOT_URLCONF = 'SUB.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'RAHUL.wsgi.application'
+WSGI_APPLICATION = 'SUB.wsgi.application'
 
 
 # Database
@@ -117,7 +117,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS=[
-    os.path.join(BASE_DIR,'RIO/static')
+    os.path.join(BASE_DIR,'ASH/static')
 ]
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
